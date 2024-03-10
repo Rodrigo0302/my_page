@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -24,19 +24,17 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Soy un estudiante en la Escuela Superior de Computo del Instituto Politécnico Nacional, en México. Me gusta aprender sobre nuevas tecnologías y como estas pueden ayudar a resolver problemas de la vida diaria. Me gusta el desarrollo y diseño de software y hardware.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Diseño Web HTML/CSS",
+  "Desarrollo de aplicaciones en Java",
+  "Codificación en C,Java, JavaScript",
+  "Diseño y construccion de circuitos electrónicos basicos con fines educativos",
 ];
 
 /**
@@ -44,8 +42,7 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+const detailOrQuote = "No se puede vencer a quien no sabe rendirse. -Babe Ruth";
 
 const About = () => {
   return (
@@ -60,7 +57,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>Sobre Mi</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
